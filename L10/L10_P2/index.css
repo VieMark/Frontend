@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    margin-right: 200px; 
+}
+img {
+    width: 500px;
+    align-self: right;
+
+}
+
+.block {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block.one {
+    color: grey;
+    font-size: 18px;
+    margin: 30px 30px 30px 100px;
+}
+.block.two {
+    display: block;
+    width: 500px;
+    color: black;
+    font-size: 50px;
+    line-height: 1;
+    margin: 50px 30px 50px 100px;  
+}
+.block.three {
+    width: 700px;
+    color: grey;
+    font-size: 20px;
+    margin: 50px 30px 50px 100px;
+}
+.block.f {
+    color: #cccccc;
+    font-size: 18px;
+    margin: 50px 30px 30px 100px;
+}

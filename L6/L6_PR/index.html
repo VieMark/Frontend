@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>tag form</title>
+        <link href="./index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header></header>
+
+        <main>
+            <form action="" method="get">
+
+                <label for="username"> Login </label>
+                <input required type="text" id="username" placeholder="Введите имя">
+
+                <label for="phone"> Phone </label>
+                <input type="number" id="phone" placeholder="Введите номер">
+
+                <label for="password">Password</label>
+                <input required type="password" id="password" placeholder="Введите пароль">
+
+                <label for="citys">Ваш город</label>
+                <select name="city" id="citys">
+                    <option value="">__Выберите город__</option>
+                    <option value="moskov">Москва</option>
+                    <option value="petersburg">Санкт-Петербург</option>
+                    <option value="samara">Самара</option>
+                    <option value="perm">Пермь</option>
+                    <option value="novosibirsk">Новосибирск</option>
+
+                </select>
+
+                <input type="checkbox" id="remember">
+                <label for="remember">Запомнить меня</label>
+
+                <div>
+                    <label for="male">муж</label>
+                    <input type="radio" name="gender" id="male" checked>
+                    <label for="female">жен</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+
+
+                <button type="submit">Send</button>
+
+                <button type="reset">Reset</button>
+                
+            </form>
+
+        </main>
+
+        <footer></footer>
+    </body>
+</html>

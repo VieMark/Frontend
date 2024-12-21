@@ -1,0 +1,52 @@
+main {
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+@font-face {
+    font-family: "garamond-bold";
+    src: url("./garamond-bold.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FuturaNewLight-Reg";
+    src: url("./FuturaNewLight-Reg.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+a {
+    color: orange;
+    font-size: 20px;
+}
+
+h1 {
+    
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: orangered;
+}
+
+p {
+    line-height: 2.5;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "FuturaNewLight-Reg", sans-serif;
+}
+p.test {
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "garamond-bold", sans-serif;
+}

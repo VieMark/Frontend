@@ -1,0 +1,36 @@
+header {
+    margin-left: 20px;
+}
+
+section.X {
+    background-color: #bbbbbb;
+    margin-left: 20px; 
+    width: 400px;
+    border:3px #ffd700  solid;  
+    text-align: left;
+    
+}
+section.X1 {
+    background-color: #bbbbbb;
+    margin-left: 20px; 
+    width: 400px;
+    border:3px #ffd700  solid;  
+    text-align: left;
+    
+}
+
+h2 {
+    margin-left: 10px; 
+}
+
+p {
+    margin-left: 40px; 
+}
+
+hr {
+    size: 6;
+    width:85%;
+    margin-left: 40px; 
+    color: black;
+    
+}

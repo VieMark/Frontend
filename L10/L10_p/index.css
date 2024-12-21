@@ -1,0 +1,23 @@
+.block {
+    box-sizing: border-box;
+}
+.block.one {
+    background-color: brown;
+    margin: 50px;
+    width:200px;
+    height:150px;
+}
+.block.two {
+    background-color: orange;
+    margin: 50px;
+    max-width: 350px;
+    max-height: 200px; 
+}
+
+.block.three{
+    background-color: blue;
+    padding: 50px;
+    border: 10px solid;
+    border-color: black;
+    margin: 70px;
+}
